@@ -1,5 +1,11 @@
 body {
   background-color: #70A69C;
+  /* Idk if i need these below */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
 }
 
 @font-face {
@@ -14,7 +20,8 @@ body {
 
 h1 {
   font-family: "Witched", cursive;
-  color
+  color: #ffffff;
+  font-size: 64px;
 }
 
 /* Add a black background color to the top navigation */
@@ -28,11 +35,29 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 48px;
-  font-family: "Arial";
+  font-size: 36px;
+  font-family: "Verdana";
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   color: #F1AdA0;
 }
+
+.custom-box {
+  position: absolute;
+width: 400px;
+height: 200px;
+
+background: #E3DDB4;
+box-shadow: 36px 51px 0px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+}
+
+.custom-box h2 {
+  margin-top: 0;
+  color: #264E4A; /* heading color */
+}
+
+
+
