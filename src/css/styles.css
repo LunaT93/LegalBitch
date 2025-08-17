@@ -1,3 +1,38 @@
 body {
-  background-color: red;
+  background-color: #70A69C;
+}
+
+@font-face {
+  font-family: "Witched";
+  src: url("fonts/witched.woff2") format("woff2"), 
+       url("fonts/witched.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* I don't have this font yet and I need to contact the dude to get the rights. */
+
+h1 {
+  font-family: "Witched", cursive;
+  color
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 48px;
+  font-family: "Arial";
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #F1AdA0;
 }
